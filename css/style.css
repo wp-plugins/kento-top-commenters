@@ -1,0 +1,88 @@
+.top_commenters{
+	width: 100%;	
+}
+.top_commenters ol.top_commenters-list{
+	list-style: none;
+}
+.top_commenters ol.top_commenters-list li{
+	display: inline-table;
+	width: 100%;
+	height: 50px;
+}
+
+.top_commenters ol.top_commenters-list li .top-commenters-image{
+	width: 50px;
+	height: 50px;
+	overflow: hidden;
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+.top_commenters ol.top_commenters-list li .top-commenters-name {
+	font-size: 16px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	height: 20px;
+}
+.top-commenters-name, .top-commenters-image, .commenters-count{
+	display: inline-table;
+}
+.commenters-count{
+	font-size: 12px;	
+}
+/*==========================================
+*************** Style 1 ********************
+===========================================*/
+
+
+
+.top_commenters ol.top_commenters-list li .top-commenters-image{
+	display: block;
+}
+.top_commenters .style1 li .top-commenters-name{
+	display: block;	
+}
+/*==========================================
+*************** Style 2 ********************
+===========================================*/
+
+.top_commenters .style2 li {
+	float: left !important;
+	height: 50px ;
+	line-height: 45px !important;
+	margin: 3px;
+	padding-bottom: 0 !important;
+	width: 50px !important;
+}
+.top_commenters .style2 li .top-commenters-name, .top_commenters .style2 li .commenters-count{
+	display: none !important;
+}
+.top_commenters .style2 li .top-commenters-image{
+	margin-right: 5px !important;
+	margin-bottom: 5px !important;
+}
+
+/*==========================================
+*************** Style 3 ********************
+===========================================*/
+
+.top_commenters ol.style3 li{
+	list-style: decimal inside none;
+	padding-bottom: 0 !important;	
+	display: list-item !important;
+	height: auto;
+	overflow: hidden !important
+}
+
+.top_commenters .style3 li .top-commenters-image{
+	display: none !important;
+}
+
+.top_commenters ol.style3 li .top-commenters-name{
+	
+}
+.top_commenters .style3 li .commenters-count {
+	font-size: 11px;
+	padding-left: 5px;
+}
