@@ -1,5 +1,5 @@
 === Kento Top Commenters ===
-Contributors: hasanrang05
+Contributors: kentothemes
 Donate link: 
 Tags: Top Commentators Widget, Top Commentators, top contributor
 Requires at least: 3.8
